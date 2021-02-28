@@ -12,13 +12,13 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-public class Registration extends Base {
+public class RegistrationSteps extends Base {
     private Base base;
     MethodHelper methodHelper = new MethodHelper();
     LandPage landPage;
     RegistrationPage registrationPage;
 
-    public Registration(Base base) {
+    public RegistrationSteps(Base base) {
         this.base = base;
     }
 

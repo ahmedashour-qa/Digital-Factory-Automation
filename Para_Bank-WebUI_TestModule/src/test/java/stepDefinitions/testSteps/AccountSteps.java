@@ -8,8 +8,9 @@ import base.Base;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.junit.Assert;
-import org.testng.asserts.*;
+//import org.junit.Assert;
+import org.testng.Assert;
+
 
 public class AccountSteps {
     private Base base;
@@ -68,7 +69,7 @@ public class AccountSteps {
     public void newAccountShallBeOpenedSuccessfully() {
         accountPage = new AccountPage(base.driver);
         accountPage.SelectAccountType();
-        org.testng.Assert.assertEquals("Account Opened!",accountPage.NewAccountMsg());
-        org.testng.Assert.assertNotNull(accountPage.NewAccountId());
+        Assert.assertEquals("Account Opened!",accountPage.NewAccountMsg());
+        Assert.assertNotNull(accountPage.NewAccountId());
     }
 }

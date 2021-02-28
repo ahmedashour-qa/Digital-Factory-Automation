@@ -51,6 +51,14 @@
 							</a>
 						</li>
 						<li>
+							<a href="exception.html">
+							<span class="nav-icon">
+							<i class="fa fa-warning"></i>
+							</span>
+							<span class="nav-text">Exceptions</span>
+							</a>
+						</li>
+						<li>
 							<a href="dashboard.html">
 							<span class="nav-icon">
 							<i class="fa fa-dashboard"></i>
@@ -95,7 +103,7 @@
 									</a>
 									<div class="dropdown-menu pt-0 mt-2 animate fadeIn">
 										<a class="dropdown-item" href="#"><span class="tf" status="pass"><i class="fa fa-dot-circle-o text-success"></i>Pass</span></a>
-										
+										<a class="dropdown-item" href="#"><span class="tf" status="fail"><i class="fa fa-dot-circle-o text-danger"></i>Fail</span></a>
 										
 										
 										
@@ -112,6 +120,8 @@
 								        </span>
 							        </a>
 							        <div class="dropdown-menu pt-0 mt-2 animate fadeIn">
+						    	        <a class="dropdown-item" href="#"><span class="cf">@account</span></a>
+						    	        <a class="dropdown-item" href="#"><span class="cf">@update_info</span></a>
 						    	        <a class="dropdown-item" href="#"><span class="cf">@login</span></a>
 						    	        <a class="dropdown-item" href="#"><span class="cf">@registration</span></a>
 						    	        <div class="dropdown-divider"></div>
@@ -130,11 +140,502 @@
 								<div class="col-md-8 col-sm-12">
 									<div class="logger-content">
 										<h6 class="mb-3 ml-1">Test Logs</h6>
+											<div class="tsc" status="fail">
+											<div class="st fail test l0" 
+												tags="@account"
+												devices="">
+												<span class="tt">02.28.2021 03:47:41</span>&nbsp;
+												<span class="ts">fail</span>&nbsp;&nbsp;
+												<span class="tn">[Account] started</span>
+												<span class="category-list">
+													<span class="category badge"><i class="fa fa-tag"></i> @account</span>
+												</span>
+												<span class="author-list">
+												</span>
+												<span class="device-list">
+												</span>
+												
+											</div>
+											<div class="st pass test l1" 
+												tags=""
+												devices="">
+												<span class="tt">02.28.2021 03:47:41</span>&nbsp;
+												<span class="ts">pass</span>&nbsp;&nbsp;
+												<span class="tn">|---[User Can view his/her Accounts and balance successfully] started</span>
+												
+											</div>
+											<div class="st pass test l2" 
+												tags="@account"
+												devices="">
+												<span class="tt">02.28.2021 03:47:41</span>&nbsp;
+												<span class="ts">pass</span>&nbsp;&nbsp;
+												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[User Can view his/her Accounts and balance successfully] started</span>
+												<span class="category-list">
+													<span class="category badge"><i class="fa fa-tag"></i> @account</span>
+												</span>
+												<span class="author-list">
+												</span>
+												<span class="device-list">
+												</span>
+												
+											</div>
+											<div class="st pass test l3" 
+												tags=""
+												devices="">
+												<span class="tt">02.28.2021 03:47:41</span>&nbsp;
+												<span class="ts">pass</span>&nbsp;&nbsp;
+												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page] started</span>
+												
+												<div class="st pass">
+													<span class="tt">02.28.2021 03:47:41</span>&nbsp;
+													<span class="ts">pass</span>&nbsp;&nbsp; 
+													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page]</span>
+													
+													<span class="td"></span>
+												</div>
+											</div>
+											<div class="st pass test l3" 
+												tags=""
+												devices="">
+												<span class="tt">02.28.2021 03:47:41</span>&nbsp;
+												<span class="ts">pass</span>&nbsp;&nbsp;
+												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And user enter name and password in fields "Test_UserName1" "Test_Password"] started</span>
+												
+												<div class="st pass">
+													<span class="tt">02.28.2021 03:47:42</span>&nbsp;
+													<span class="ts">pass</span>&nbsp;&nbsp; 
+													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And user enter name and password in fields "Test_UserName1" "Test_Password"]</span>
+													
+													<span class="td"></span>
+												</div>
+											</div>
+											<div class="st pass test l3" 
+												tags=""
+												devices="">
+												<span class="tt">02.28.2021 03:47:42</span>&nbsp;
+												<span class="ts">pass</span>&nbsp;&nbsp;
+												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And click on the login button] started</span>
+												
+												<div class="st pass">
+													<span class="tt">02.28.2021 03:47:43</span>&nbsp;
+													<span class="ts">pass</span>&nbsp;&nbsp; 
+													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And click on the login button]</span>
+													
+													<span class="td"></span>
+												</div>
+											</div>
+											<div class="st pass test l3" 
+												tags=""
+												devices="">
+												<span class="tt">02.28.2021 03:47:43</span>&nbsp;
+												<span class="ts">pass</span>&nbsp;&nbsp;
+												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When Click on Accounts overview to display accounts details] started</span>
+												
+												<div class="st pass">
+													<span class="tt">02.28.2021 03:47:44</span>&nbsp;
+													<span class="ts">pass</span>&nbsp;&nbsp; 
+													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When Click on Accounts overview to display accounts details]</span>
+													
+													<span class="td"></span>
+												</div>
+											</div>
+											<div class="st pass test l3" 
+												tags=""
+												devices="">
+												<span class="tt">02.28.2021 03:47:44</span>&nbsp;
+												<span class="ts">pass</span>&nbsp;&nbsp;
+												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Select first account from  displayed accounts] started</span>
+												
+												<div class="st pass">
+													<span class="tt">02.28.2021 03:47:45</span>&nbsp;
+													<span class="ts">pass</span>&nbsp;&nbsp; 
+													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Select first account from  displayed accounts]</span>
+													
+													<span class="td"></span>
+												</div>
+											</div>
+											<div class="st pass test l3" 
+												tags=""
+												devices="">
+												<span class="tt">02.28.2021 03:47:45</span>&nbsp;
+												<span class="ts">pass</span>&nbsp;&nbsp;
+												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then Account details shall be displayed successfully] started</span>
+												
+												<div class="st pass">
+													<span class="tt">02.28.2021 03:47:45</span>&nbsp;
+													<span class="ts">pass</span>&nbsp;&nbsp; 
+													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then Account details shall be displayed successfully]</span>
+													
+													<span class="td"></span>
+												</div>
+											</div>
+											<div class="st pass test l2" 
+												tags="@account"
+												devices="">
+												<span class="tt">02.28.2021 03:47:52</span>&nbsp;
+												<span class="ts">pass</span>&nbsp;&nbsp;
+												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[User Can view his/her Accounts and balance successfully] started</span>
+												<span class="category-list">
+													<span class="category badge"><i class="fa fa-tag"></i> @account</span>
+												</span>
+												<span class="author-list">
+												</span>
+												<span class="device-list">
+												</span>
+												
+											</div>
+											<div class="st pass test l3" 
+												tags=""
+												devices="">
+												<span class="tt">02.28.2021 03:47:52</span>&nbsp;
+												<span class="ts">pass</span>&nbsp;&nbsp;
+												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page] started</span>
+												
+												<div class="st pass">
+													<span class="tt">02.28.2021 03:47:52</span>&nbsp;
+													<span class="ts">pass</span>&nbsp;&nbsp; 
+													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page]</span>
+													
+													<span class="td"></span>
+												</div>
+											</div>
+											<div class="st pass test l3" 
+												tags=""
+												devices="">
+												<span class="tt">02.28.2021 03:47:52</span>&nbsp;
+												<span class="ts">pass</span>&nbsp;&nbsp;
+												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And user enter name and password in fields "Test_UserName2" "Test_Password"] started</span>
+												
+												<div class="st pass">
+													<span class="tt">02.28.2021 03:47:52</span>&nbsp;
+													<span class="ts">pass</span>&nbsp;&nbsp; 
+													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And user enter name and password in fields "Test_UserName2" "Test_Password"]</span>
+													
+													<span class="td"></span>
+												</div>
+											</div>
+											<div class="st pass test l3" 
+												tags=""
+												devices="">
+												<span class="tt">02.28.2021 03:47:52</span>&nbsp;
+												<span class="ts">pass</span>&nbsp;&nbsp;
+												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And click on the login button] started</span>
+												
+												<div class="st pass">
+													<span class="tt">02.28.2021 03:47:53</span>&nbsp;
+													<span class="ts">pass</span>&nbsp;&nbsp; 
+													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And click on the login button]</span>
+													
+													<span class="td"></span>
+												</div>
+											</div>
+											<div class="st pass test l3" 
+												tags=""
+												devices="">
+												<span class="tt">02.28.2021 03:47:53</span>&nbsp;
+												<span class="ts">pass</span>&nbsp;&nbsp;
+												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When Click on Accounts overview to display accounts details] started</span>
+												
+												<div class="st pass">
+													<span class="tt">02.28.2021 03:47:54</span>&nbsp;
+													<span class="ts">pass</span>&nbsp;&nbsp; 
+													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When Click on Accounts overview to display accounts details]</span>
+													
+													<span class="td"></span>
+												</div>
+											</div>
+											<div class="st pass test l3" 
+												tags=""
+												devices="">
+												<span class="tt">02.28.2021 03:47:54</span>&nbsp;
+												<span class="ts">pass</span>&nbsp;&nbsp;
+												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Select first account from  displayed accounts] started</span>
+												
+												<div class="st pass">
+													<span class="tt">02.28.2021 03:47:55</span>&nbsp;
+													<span class="ts">pass</span>&nbsp;&nbsp; 
+													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Select first account from  displayed accounts]</span>
+													
+													<span class="td"></span>
+												</div>
+											</div>
+											<div class="st pass test l3" 
+												tags=""
+												devices="">
+												<span class="tt">02.28.2021 03:47:55</span>&nbsp;
+												<span class="ts">pass</span>&nbsp;&nbsp;
+												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then Account details shall be displayed successfully] started</span>
+												
+												<div class="st pass">
+													<span class="tt">02.28.2021 03:47:55</span>&nbsp;
+													<span class="ts">pass</span>&nbsp;&nbsp; 
+													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then Account details shall be displayed successfully]</span>
+													
+													<span class="td"></span>
+												</div>
+											</div>
+											<div class="st pass test l2" 
+												tags="@update_info"
+												devices="">
+												<span class="tt">02.28.2021 03:54:04</span>&nbsp;
+												<span class="ts">pass</span>&nbsp;&nbsp;
+												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[User Can view his/her Accounts and balance successfully] started</span>
+												<span class="category-list">
+													<span class="category badge"><i class="fa fa-tag"></i> @update_info</span>
+												</span>
+												<span class="author-list">
+												</span>
+												<span class="device-list">
+												</span>
+												
+											</div>
+											<div class="st pass test l3" 
+												tags=""
+												devices="">
+												<span class="tt">02.28.2021 03:54:04</span>&nbsp;
+												<span class="ts">pass</span>&nbsp;&nbsp;
+												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page] started</span>
+												
+												<div class="st pass">
+													<span class="tt">02.28.2021 03:54:04</span>&nbsp;
+													<span class="ts">pass</span>&nbsp;&nbsp; 
+													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page]</span>
+													
+													<span class="td"></span>
+												</div>
+											</div>
+											<div class="st pass test l3" 
+												tags=""
+												devices="">
+												<span class="tt">02.28.2021 03:54:04</span>&nbsp;
+												<span class="ts">pass</span>&nbsp;&nbsp;
+												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And user enter name and password in fields "Test_UserName1" "Test_Password"] started</span>
+												
+												<div class="st pass">
+													<span class="tt">02.28.2021 03:54:04</span>&nbsp;
+													<span class="ts">pass</span>&nbsp;&nbsp; 
+													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And user enter name and password in fields "Test_UserName1" "Test_Password"]</span>
+													
+													<span class="td"></span>
+												</div>
+											</div>
+											<div class="st pass test l3" 
+												tags=""
+												devices="">
+												<span class="tt">02.28.2021 03:54:04</span>&nbsp;
+												<span class="ts">pass</span>&nbsp;&nbsp;
+												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And click on the login button] started</span>
+												
+												<div class="st pass">
+													<span class="tt">02.28.2021 03:54:05</span>&nbsp;
+													<span class="ts">pass</span>&nbsp;&nbsp; 
+													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And click on the login button]</span>
+													
+													<span class="td"></span>
+												</div>
+											</div>
+											<div class="st pass test l3" 
+												tags=""
+												devices="">
+												<span class="tt">02.28.2021 03:54:05</span>&nbsp;
+												<span class="ts">pass</span>&nbsp;&nbsp;
+												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When Click on Update Contact Info to Update User Contact Info] started</span>
+												
+												<div class="st pass">
+													<span class="tt">02.28.2021 03:54:06</span>&nbsp;
+													<span class="ts">pass</span>&nbsp;&nbsp; 
+													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When Click on Update Contact Info to Update User Contact Info]</span>
+													
+													<span class="td"></span>
+												</div>
+											</div>
+											<div class="st pass test l3" 
+												tags=""
+												devices="">
+												<span class="tt">02.28.2021 03:54:06</span>&nbsp;
+												<span class="ts">pass</span>&nbsp;&nbsp;
+												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Fill all the required fields of update profile section "Jhon" , "Smith", "NSW" ,"Sydney","New South Weals","7537","564281"] started</span>
+												
+												<div class="st pass">
+													<span class="tt">02.28.2021 03:54:06</span>&nbsp;
+													<span class="ts">pass</span>&nbsp;&nbsp; 
+													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Fill all the required fields of update profile section "Jhon" , "Smith", "NSW" ,"Sydney","New South Weals","7537","564281"]</span>
+													
+													<span class="td"></span>
+												</div>
+											</div>
+											<div class="st pass test l3" 
+												tags=""
+												devices="">
+												<span class="tt">02.28.2021 03:54:06</span>&nbsp;
+												<span class="ts">pass</span>&nbsp;&nbsp;
+												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And User clicks on Update profile button] started</span>
+												
+												<div class="st pass">
+													<span class="tt">02.28.2021 03:54:07</span>&nbsp;
+													<span class="ts">pass</span>&nbsp;&nbsp; 
+													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And User clicks on Update profile button]</span>
+													
+													<span class="td"></span>
+												</div>
+											</div>
+											<div class="st pass test l3" 
+												tags=""
+												devices="">
+												<span class="tt">02.28.2021 03:54:07</span>&nbsp;
+												<span class="ts">pass</span>&nbsp;&nbsp;
+												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then Contact Info Shall be updated successfully] started</span>
+												
+												<div class="st pass">
+													<span class="tt">02.28.2021 03:54:07</span>&nbsp;
+													<span class="ts">pass</span>&nbsp;&nbsp; 
+													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then Contact Info Shall be updated successfully]</span>
+													
+													<span class="td"></span>
+												</div>
+											</div>
+											<div class="st fail test l1" 
+												tags=""
+												devices="">
+												<span class="tt">02.28.2021 03:48:04</span>&nbsp;
+												<span class="ts">fail</span>&nbsp;&nbsp;
+												<span class="tn">|---[User can open a new account] started</span>
+												
+											</div>
+											<div class="st fail test l2" 
+												tags="@account"
+												devices="">
+												<span class="tt">02.28.2021 03:48:04</span>&nbsp;
+												<span class="ts">fail</span>&nbsp;&nbsp;
+												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[User can open a new account] started</span>
+												<span class="category-list">
+													<span class="category badge"><i class="fa fa-tag"></i> @account</span>
+												</span>
+												<span class="author-list">
+												</span>
+												<span class="device-list">
+												</span>
+												
+											</div>
+											<div class="st pass test l3" 
+												tags=""
+												devices="">
+												<span class="tt">02.28.2021 03:48:04</span>&nbsp;
+												<span class="ts">pass</span>&nbsp;&nbsp;
+												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page] started</span>
+												
+												<div class="st pass">
+													<span class="tt">02.28.2021 03:48:04</span>&nbsp;
+													<span class="ts">pass</span>&nbsp;&nbsp; 
+													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page]</span>
+													
+													<span class="td"></span>
+												</div>
+											</div>
+											<div class="st pass test l3" 
+												tags=""
+												devices="">
+												<span class="tt">02.28.2021 03:48:04</span>&nbsp;
+												<span class="ts">pass</span>&nbsp;&nbsp;
+												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And user enter name and password in fields "Test_UserName1" "Test_Password"] started</span>
+												
+												<div class="st pass">
+													<span class="tt">02.28.2021 03:48:04</span>&nbsp;
+													<span class="ts">pass</span>&nbsp;&nbsp; 
+													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And user enter name and password in fields "Test_UserName1" "Test_Password"]</span>
+													
+													<span class="td"></span>
+												</div>
+											</div>
+											<div class="st pass test l3" 
+												tags=""
+												devices="">
+												<span class="tt">02.28.2021 03:48:04</span>&nbsp;
+												<span class="ts">pass</span>&nbsp;&nbsp;
+												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And click on the login button] started</span>
+												
+												<div class="st pass">
+													<span class="tt">02.28.2021 03:48:06</span>&nbsp;
+													<span class="ts">pass</span>&nbsp;&nbsp; 
+													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And click on the login button]</span>
+													
+													<span class="td"></span>
+												</div>
+											</div>
+											<div class="st pass test l3" 
+												tags=""
+												devices="">
+												<span class="tt">02.28.2021 03:48:06</span>&nbsp;
+												<span class="ts">pass</span>&nbsp;&nbsp;
+												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When Click on Open new account to create a new account] started</span>
+												
+												<div class="st pass">
+													<span class="tt">02.28.2021 03:48:07</span>&nbsp;
+													<span class="ts">pass</span>&nbsp;&nbsp; 
+													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When Click on Open new account to create a new account]</span>
+													
+													<span class="td"></span>
+												</div>
+											</div>
+											<div class="st pass test l3" 
+												tags=""
+												devices="">
+												<span class="tt">02.28.2021 03:48:07</span>&nbsp;
+												<span class="ts">pass</span>&nbsp;&nbsp;
+												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Select Account type from type list] started</span>
+												
+												<div class="st pass">
+													<span class="tt">02.28.2021 03:48:07</span>&nbsp;
+													<span class="ts">pass</span>&nbsp;&nbsp; 
+													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Select Account type from type list]</span>
+													
+													<span class="td"></span>
+												</div>
+											</div>
+											<div class="st pass test l3" 
+												tags=""
+												devices="">
+												<span class="tt">02.28.2021 03:48:07</span>&nbsp;
+												<span class="ts">pass</span>&nbsp;&nbsp;
+												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Click on Create button] started</span>
+												
+												<div class="st pass">
+													<span class="tt">02.28.2021 03:48:07</span>&nbsp;
+													<span class="ts">pass</span>&nbsp;&nbsp; 
+													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Click on Create button]</span>
+													
+													<span class="td"></span>
+												</div>
+											</div>
+											<div class="st fail test l3" 
+												tags=""
+												devices="">
+												<span class="tt">02.28.2021 03:48:07</span>&nbsp;
+												<span class="ts">fail</span>&nbsp;&nbsp;
+												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then New Account shall be opened successfully] started</span>
+												
+												<div class="st fail">
+													<span class="tt">02.28.2021 03:48:07</span>&nbsp;
+													<span class="ts">fail</span>&nbsp;&nbsp; 
+													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then New Account shall be opened successfully]</span>
+													
+													<span class="td">threw an exception<br><textarea disabled class="code-block">java.lang.AssertionError: expected [Open New Account] but found [Account Opened!]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at stepDefinitions.testSteps.AccountSteps.newAccountShallBeOpenedSuccessfully(AccountSteps.java:72)
+	at ✽.New Account shall be opened successfully(file:///C:/Users/AshourAhmedA/IdeaProjects/DigitalFactory/Para_Bank-WebUI_TestModule/src/test/resources/featureFiles/Accounts.feature:26)
+</textarea></span>
+												</div>
+											</div>
+											</div>
 											<div class="tsc" status="pass">
 											<div class="st pass test l0" 
 												tags="@login"
 												devices="">
-												<span class="tt">02.26.2021 21:10:02</span>&nbsp;
+												<span class="tt">02.28.2021 03:48:16</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">[User Login] started</span>
 												<span class="category-list">
@@ -149,7 +650,7 @@
 											<div class="st pass test l1" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:10:02</span>&nbsp;
+												<span class="tt">02.28.2021 03:48:16</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">|---[User try to login with valid email and password] started</span>
 												
@@ -157,7 +658,7 @@
 											<div class="st pass test l2" 
 												tags="@login"
 												devices="">
-												<span class="tt">02.26.2021 21:10:02</span>&nbsp;
+												<span class="tt">02.28.2021 03:48:16</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[User try to login with valid email and password] started</span>
 												<span class="category-list">
@@ -172,12 +673,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:10:02</span>&nbsp;
+												<span class="tt">02.28.2021 03:48:16</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:10:02</span>&nbsp;
+													<span class="tt">02.28.2021 03:48:16</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page]</span>
 													
@@ -187,12 +688,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:10:02</span>&nbsp;
+												<span class="tt">02.28.2021 03:48:16</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When user enter name and password in fields "Test_UName_1" "Test_Pword_1"] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:10:13</span>&nbsp;
+													<span class="tt">02.28.2021 03:48:16</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When user enter name and password in fields "Test_UName_1" "Test_Pword_1"]</span>
 													
@@ -202,12 +703,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:10:13</span>&nbsp;
+												<span class="tt">02.28.2021 03:48:16</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And click on the login button] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:10:15</span>&nbsp;
+													<span class="tt">02.28.2021 03:48:18</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And click on the login button]</span>
 													
@@ -217,12 +718,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:10:15</span>&nbsp;
+												<span class="tt">02.28.2021 03:48:18</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then I'm in the home page] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:10:15</span>&nbsp;
+													<span class="tt">02.28.2021 03:48:18</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then I'm in the home page]</span>
 													
@@ -232,7 +733,7 @@
 											<div class="st pass test l2" 
 												tags="@login"
 												devices="">
-												<span class="tt">02.26.2021 21:10:22</span>&nbsp;
+												<span class="tt">02.28.2021 03:48:26</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[User try to login with valid email and password] started</span>
 												<span class="category-list">
@@ -247,12 +748,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:10:22</span>&nbsp;
+												<span class="tt">02.28.2021 03:48:26</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:10:22</span>&nbsp;
+													<span class="tt">02.28.2021 03:48:26</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page]</span>
 													
@@ -262,12 +763,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:10:22</span>&nbsp;
+												<span class="tt">02.28.2021 03:48:26</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When user enter name and password in fields "Test_UName_2" "Test_Pword_2"] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:10:22</span>&nbsp;
+													<span class="tt">02.28.2021 03:48:26</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When user enter name and password in fields "Test_UName_2" "Test_Pword_2"]</span>
 													
@@ -277,12 +778,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:10:22</span>&nbsp;
+												<span class="tt">02.28.2021 03:48:26</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And click on the login button] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:10:24</span>&nbsp;
+													<span class="tt">02.28.2021 03:48:27</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And click on the login button]</span>
 													
@@ -292,12 +793,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:10:24</span>&nbsp;
+												<span class="tt">02.28.2021 03:48:27</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then I'm in the home page] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:10:24</span>&nbsp;
+													<span class="tt">02.28.2021 03:48:27</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then I'm in the home page]</span>
 													
@@ -307,7 +808,7 @@
 											<div class="st pass test l1" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:10:30</span>&nbsp;
+												<span class="tt">02.28.2021 03:48:35</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">|---[User try to login with invalid credentials] started</span>
 												
@@ -315,7 +816,7 @@
 											<div class="st pass test l2" 
 												tags="@login"
 												devices="">
-												<span class="tt">02.26.2021 21:10:30</span>&nbsp;
+												<span class="tt">02.28.2021 03:48:35</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[User try to login with invalid credentials] started</span>
 												<span class="category-list">
@@ -330,12 +831,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:10:30</span>&nbsp;
+												<span class="tt">02.28.2021 03:48:35</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:10:30</span>&nbsp;
+													<span class="tt">02.28.2021 03:48:35</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page]</span>
 													
@@ -345,12 +846,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:10:30</span>&nbsp;
+												<span class="tt">02.28.2021 03:48:35</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:10:30</span>&nbsp;
+													<span class="tt">02.28.2021 03:48:35</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page]</span>
 													
@@ -360,12 +861,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:10:30</span>&nbsp;
+												<span class="tt">02.28.2021 03:48:35</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When user enter name and password in fields "" "secret_sauce"] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:10:30</span>&nbsp;
+													<span class="tt">02.28.2021 03:48:35</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When user enter name and password in fields "" "secret_sauce"]</span>
 													
@@ -375,12 +876,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:10:30</span>&nbsp;
+												<span class="tt">02.28.2021 03:48:35</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And click on the login button] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:10:31</span>&nbsp;
+													<span class="tt">02.28.2021 03:48:37</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And click on the login button]</span>
 													
@@ -390,12 +891,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:10:31</span>&nbsp;
+												<span class="tt">02.28.2021 03:48:37</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then System displays an error message says "Please enter a username and password."] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:10:31</span>&nbsp;
+													<span class="tt">02.28.2021 03:48:37</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then System displays an error message says "Please enter a username and password."]</span>
 													
@@ -405,7 +906,7 @@
 											<div class="st pass test l2" 
 												tags="@login"
 												devices="">
-												<span class="tt">02.26.2021 21:10:38</span>&nbsp;
+												<span class="tt">02.28.2021 03:48:44</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[User try to login with invalid credentials] started</span>
 												<span class="category-list">
@@ -420,12 +921,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:10:38</span>&nbsp;
+												<span class="tt">02.28.2021 03:48:44</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:10:38</span>&nbsp;
+													<span class="tt">02.28.2021 03:48:44</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page]</span>
 													
@@ -435,12 +936,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:10:38</span>&nbsp;
+												<span class="tt">02.28.2021 03:48:44</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:10:38</span>&nbsp;
+													<span class="tt">02.28.2021 03:48:44</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page]</span>
 													
@@ -450,12 +951,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:10:38</span>&nbsp;
+												<span class="tt">02.28.2021 03:48:44</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When user enter name and password in fields "mmmm@mmm.com" ""] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:10:38</span>&nbsp;
+													<span class="tt">02.28.2021 03:48:44</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When user enter name and password in fields "mmmm@mmm.com" ""]</span>
 													
@@ -465,12 +966,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:10:38</span>&nbsp;
+												<span class="tt">02.28.2021 03:48:44</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And click on the login button] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:10:39</span>&nbsp;
+													<span class="tt">02.28.2021 03:48:45</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And click on the login button]</span>
 													
@@ -480,12 +981,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:10:39</span>&nbsp;
+												<span class="tt">02.28.2021 03:48:45</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then System displays an error message says "Please enter a username and password."] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:10:39</span>&nbsp;
+													<span class="tt">02.28.2021 03:48:45</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then System displays an error message says "Please enter a username and password."]</span>
 													
@@ -495,7 +996,7 @@
 											<div class="st pass test l2" 
 												tags="@login"
 												devices="">
-												<span class="tt">02.26.2021 21:10:47</span>&nbsp;
+												<span class="tt">02.28.2021 03:48:53</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[User try to login with invalid credentials] started</span>
 												<span class="category-list">
@@ -510,12 +1011,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:10:47</span>&nbsp;
+												<span class="tt">02.28.2021 03:48:53</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:10:47</span>&nbsp;
+													<span class="tt">02.28.2021 03:48:53</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page]</span>
 													
@@ -525,12 +1026,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:10:47</span>&nbsp;
+												<span class="tt">02.28.2021 03:48:53</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:10:47</span>&nbsp;
+													<span class="tt">02.28.2021 03:48:53</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page]</span>
 													
@@ -540,12 +1041,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:10:47</span>&nbsp;
+												<span class="tt">02.28.2021 03:48:53</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When user enter name and password in fields "" ""] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:10:47</span>&nbsp;
+													<span class="tt">02.28.2021 03:48:53</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When user enter name and password in fields "" ""]</span>
 													
@@ -555,12 +1056,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:10:47</span>&nbsp;
+												<span class="tt">02.28.2021 03:48:53</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And click on the login button] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:10:48</span>&nbsp;
+													<span class="tt">02.28.2021 03:48:55</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And click on the login button]</span>
 													
@@ -570,12 +1071,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:10:48</span>&nbsp;
+												<span class="tt">02.28.2021 03:48:55</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then System displays an error message says "Please enter a username and password."] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:10:48</span>&nbsp;
+													<span class="tt">02.28.2021 03:48:55</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then System displays an error message says "Please enter a username and password."]</span>
 													
@@ -583,12 +1084,12 @@
 												</div>
 											</div>
 											</div>
-											<div class="tsc" status="pass">
-											<div class="st pass test l0" 
+											<div class="tsc" status="fail">
+											<div class="st fail test l0" 
 												tags="@registration"
 												devices="">
-												<span class="tt">02.26.2021 21:10:55</span>&nbsp;
-												<span class="ts">pass</span>&nbsp;&nbsp;
+												<span class="tt">02.28.2021 03:49:12</span>&nbsp;
+												<span class="ts">fail</span>&nbsp;&nbsp;
 												<span class="tn">[Registration] started</span>
 												<span class="category-list">
 													<span class="category badge"><i class="fa fa-tag"></i> @registration</span>
@@ -599,19 +1100,19 @@
 												</span>
 												
 											</div>
-											<div class="st pass test l1" 
+											<div class="st fail test l1" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:10:55</span>&nbsp;
-												<span class="ts">pass</span>&nbsp;&nbsp;
+												<span class="tt">02.28.2021 03:49:12</span>&nbsp;
+												<span class="ts">fail</span>&nbsp;&nbsp;
 												<span class="tn">|---[User try to create an account with valid data] started</span>
 												
 											</div>
-											<div class="st pass test l2" 
+											<div class="st fail test l2" 
 												tags="@registration"
 												devices="">
-												<span class="tt">02.26.2021 21:10:55</span>&nbsp;
-												<span class="ts">pass</span>&nbsp;&nbsp;
+												<span class="tt">02.28.2021 03:49:12</span>&nbsp;
+												<span class="ts">fail</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[User try to create an account with valid data] started</span>
 												<span class="category-list">
 													<span class="category badge"><i class="fa fa-tag"></i> @registration</span>
@@ -625,12 +1126,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:10:55</span>&nbsp;
+												<span class="tt">02.28.2021 03:49:12</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:10:55</span>&nbsp;
+													<span class="tt">02.28.2021 03:49:12</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page]</span>
 													
@@ -640,12 +1141,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:10:55</span>&nbsp;
+												<span class="tt">02.28.2021 03:49:12</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When Click on Register link] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:10:56</span>&nbsp;
+													<span class="tt">02.28.2021 03:50:08</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When Click on Register link]</span>
 													
@@ -655,12 +1156,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:10:56</span>&nbsp;
+												<span class="tt">02.28.2021 03:50:08</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Redirected to continue registration page] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:10:56</span>&nbsp;
+													<span class="tt">02.28.2021 03:50:08</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Redirected to continue registration page]</span>
 													
@@ -670,12 +1171,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:10:56</span>&nbsp;
+												<span class="tt">02.28.2021 03:50:08</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Fill all the required fields of personal information section "Test_FName" , "Test_LName", "Test_Address" ,"Test_city","Test_State","12345","1234567675","1234","Test_UserName4","Test_Password","Test_Password"] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:10:56</span>&nbsp;
+													<span class="tt">02.28.2021 03:50:09</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Fill all the required fields of personal information section "Test_FName" , "Test_LName", "Test_Address" ,"Test_city","Test_State","12345","1234567675","1234","Test_UserName4","Test_Password","Test_Password"]</span>
 													
@@ -685,37 +1186,42 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:10:56</span>&nbsp;
+												<span class="tt">02.28.2021 03:50:09</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And click on Register button] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:10:57</span>&nbsp;
+													<span class="tt">02.28.2021 03:50:09</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And click on Register button]</span>
 													
 													<span class="td"></span>
 												</div>
 											</div>
-											<div class="st pass test l3" 
+											<div class="st fail test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:10:57</span>&nbsp;
-												<span class="ts">pass</span>&nbsp;&nbsp;
+												<span class="tt">02.28.2021 03:50:09</span>&nbsp;
+												<span class="ts">fail</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then The account has been created successfully] started</span>
 												
-												<div class="st pass">
-													<span class="tt">02.26.2021 21:10:57</span>&nbsp;
-													<span class="ts">pass</span>&nbsp;&nbsp; 
+												<div class="st fail">
+													<span class="tt">02.28.2021 03:50:09</span>&nbsp;
+													<span class="ts">fail</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then The account has been created successfully]</span>
 													
-													<span class="td"></span>
+													<span class="td">threw an exception<br><textarea disabled class="code-block">org.junit.ComparisonFailure: expected:<[Your account was created successfully. You are now logged i]n.> but was:<[If you have an account with us you can sign-up for free instant online access. You will have to provide some personal informatio]n.>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at stepDefinitions.testSteps.RegistrationSteps.TheAccountHasBeenCreatedSuccessfully(RegistrationSteps.java:51)
+	at ✽.The account has been created successfully(file:///C:/Users/AshourAhmedA/IdeaProjects/DigitalFactory/Para_Bank-WebUI_TestModule/src/test/resources/featureFiles/Registeration.feature:12)
+</textarea></span>
 												</div>
 											</div>
 											<div class="st pass test l1" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:11:04</span>&nbsp;
+												<span class="tt">02.28.2021 03:50:17</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">|---[Verify user can't register with registered Username] started</span>
 												
@@ -723,7 +1229,7 @@
 											<div class="st pass test l2" 
 												tags="@registration"
 												devices="">
-												<span class="tt">02.26.2021 21:11:04</span>&nbsp;
+												<span class="tt">02.28.2021 03:50:17</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[Verify user can't register with registered Username] started</span>
 												<span class="category-list">
@@ -738,12 +1244,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:11:04</span>&nbsp;
+												<span class="tt">02.28.2021 03:50:17</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:11:04</span>&nbsp;
+													<span class="tt">02.28.2021 03:50:17</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page]</span>
 													
@@ -753,12 +1259,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:11:04</span>&nbsp;
+												<span class="tt">02.28.2021 03:50:17</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When Click on Register link] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:11:05</span>&nbsp;
+													<span class="tt">02.28.2021 03:50:19</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When Click on Register link]</span>
 													
@@ -768,12 +1274,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:11:05</span>&nbsp;
+												<span class="tt">02.28.2021 03:50:19</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Redirected to continue registration page] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:11:05</span>&nbsp;
+													<span class="tt">02.28.2021 03:50:19</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Redirected to continue registration page]</span>
 													
@@ -783,12 +1289,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:11:05</span>&nbsp;
+												<span class="tt">02.28.2021 03:50:19</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Fill all the required fields of personal information section "Test_FName" , "Test_LName", "Test_Address" ,"Test_city","Test_State","12345","1234567675","1234","Test_UserName4","Test_Password","Test_Password"] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:11:06</span>&nbsp;
+													<span class="tt">02.28.2021 03:50:19</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Fill all the required fields of personal information section "Test_FName" , "Test_LName", "Test_Address" ,"Test_city","Test_State","12345","1234567675","1234","Test_UserName4","Test_Password","Test_Password"]</span>
 													
@@ -798,12 +1304,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:11:06</span>&nbsp;
+												<span class="tt">02.28.2021 03:50:19</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And click on Register button] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:11:07</span>&nbsp;
+													<span class="tt">02.28.2021 03:50:20</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And click on Register button]</span>
 													
@@ -813,12 +1319,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:11:07</span>&nbsp;
+												<span class="tt">02.28.2021 03:50:20</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then System displays an "This username already exists."beside username field] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:11:07</span>&nbsp;
+													<span class="tt">02.28.2021 03:50:20</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then System displays an "This username already exists."beside username field]</span>
 													
@@ -828,7 +1334,7 @@
 											<div class="st pass test l1" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:11:13</span>&nbsp;
+												<span class="tt">02.28.2021 03:50:27</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">|---[Verify user can't register with invalid data] started</span>
 												
@@ -836,7 +1342,7 @@
 											<div class="st pass test l2" 
 												tags="@registration"
 												devices="">
-												<span class="tt">02.26.2021 21:11:13</span>&nbsp;
+												<span class="tt">02.28.2021 03:50:27</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[Verify user can't register with invalid data] started</span>
 												<span class="category-list">
@@ -851,12 +1357,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:11:13</span>&nbsp;
+												<span class="tt">02.28.2021 03:50:27</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:11:13</span>&nbsp;
+													<span class="tt">02.28.2021 03:50:27</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page]</span>
 													
@@ -866,12 +1372,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:11:13</span>&nbsp;
+												<span class="tt">02.28.2021 03:50:27</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When Click on Register link] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:11:14</span>&nbsp;
+													<span class="tt">02.28.2021 03:50:29</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When Click on Register link]</span>
 													
@@ -881,12 +1387,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:11:14</span>&nbsp;
+												<span class="tt">02.28.2021 03:50:29</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Redirected to continue registration page] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:11:14</span>&nbsp;
+													<span class="tt">02.28.2021 03:50:29</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Redirected to continue registration page]</span>
 													
@@ -896,12 +1402,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:11:14</span>&nbsp;
+												<span class="tt">02.28.2021 03:50:29</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Fill all the required fields of personal information section "" , "Test_LName", "Test_Address" ,"Test_city","Test_State","12345","1234567675","1234","Test_UserName1","Test_Password","Test_Password"] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:11:14</span>&nbsp;
+													<span class="tt">02.28.2021 03:50:30</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Fill all the required fields of personal information section "" , "Test_LName", "Test_Address" ,"Test_city","Test_State","12345","1234567675","1234","Test_UserName1","Test_Password","Test_Password"]</span>
 													
@@ -911,12 +1417,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:11:14</span>&nbsp;
+												<span class="tt">02.28.2021 03:50:30</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And click on Register button] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:11:15</span>&nbsp;
+													<span class="tt">02.28.2021 03:50:30</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And click on Register button]</span>
 													
@@ -926,12 +1432,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:11:15</span>&nbsp;
+												<span class="tt">02.28.2021 03:50:30</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then System displays an "First name is required."beside "First Name"] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:11:15</span>&nbsp;
+													<span class="tt">02.28.2021 03:50:30</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then System displays an "First name is required."beside "First Name"]</span>
 													
@@ -941,7 +1447,7 @@
 											<div class="st pass test l2" 
 												tags="@registration"
 												devices="">
-												<span class="tt">02.26.2021 21:11:22</span>&nbsp;
+												<span class="tt">02.28.2021 03:50:38</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[Verify user can't register with invalid data] started</span>
 												<span class="category-list">
@@ -956,12 +1462,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:11:22</span>&nbsp;
+												<span class="tt">02.28.2021 03:50:38</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:11:22</span>&nbsp;
+													<span class="tt">02.28.2021 03:50:38</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page]</span>
 													
@@ -971,12 +1477,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:11:22</span>&nbsp;
+												<span class="tt">02.28.2021 03:50:38</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When Click on Register link] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:11:22</span>&nbsp;
+													<span class="tt">02.28.2021 03:50:39</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When Click on Register link]</span>
 													
@@ -986,12 +1492,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:11:22</span>&nbsp;
+												<span class="tt">02.28.2021 03:50:39</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Redirected to continue registration page] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:11:22</span>&nbsp;
+													<span class="tt">02.28.2021 03:50:39</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Redirected to continue registration page]</span>
 													
@@ -1001,12 +1507,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:11:22</span>&nbsp;
+												<span class="tt">02.28.2021 03:50:39</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Fill all the required fields of personal information section "Test_FName" , "", "Test_Address" ,"Test_city","Test_State","12345","1234567675","1234","Test_UserName1","Test_Password","Test_Password"] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:11:23</span>&nbsp;
+													<span class="tt">02.28.2021 03:50:40</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Fill all the required fields of personal information section "Test_FName" , "", "Test_Address" ,"Test_city","Test_State","12345","1234567675","1234","Test_UserName1","Test_Password","Test_Password"]</span>
 													
@@ -1016,12 +1522,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:11:23</span>&nbsp;
+												<span class="tt">02.28.2021 03:50:40</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And click on Register button] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:11:24</span>&nbsp;
+													<span class="tt">02.28.2021 03:50:41</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And click on Register button]</span>
 													
@@ -1031,12 +1537,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:11:24</span>&nbsp;
+												<span class="tt">02.28.2021 03:50:41</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then System displays an "Last name is required."beside "Last Name"] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:11:24</span>&nbsp;
+													<span class="tt">02.28.2021 03:50:41</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then System displays an "Last name is required."beside "Last Name"]</span>
 													
@@ -1046,7 +1552,7 @@
 											<div class="st pass test l2" 
 												tags="@registration"
 												devices="">
-												<span class="tt">02.26.2021 21:11:31</span>&nbsp;
+												<span class="tt">02.28.2021 03:50:50</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[Verify user can't register with invalid data] started</span>
 												<span class="category-list">
@@ -1061,12 +1567,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:11:31</span>&nbsp;
+												<span class="tt">02.28.2021 03:50:50</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:11:31</span>&nbsp;
+													<span class="tt">02.28.2021 03:50:50</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page]</span>
 													
@@ -1076,12 +1582,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:11:31</span>&nbsp;
+												<span class="tt">02.28.2021 03:50:50</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When Click on Register link] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:11:32</span>&nbsp;
+													<span class="tt">02.28.2021 03:50:52</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When Click on Register link]</span>
 													
@@ -1091,12 +1597,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:11:32</span>&nbsp;
+												<span class="tt">02.28.2021 03:50:52</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Redirected to continue registration page] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:11:32</span>&nbsp;
+													<span class="tt">02.28.2021 03:50:52</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Redirected to continue registration page]</span>
 													
@@ -1106,12 +1612,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:11:32</span>&nbsp;
+												<span class="tt">02.28.2021 03:50:52</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Fill all the required fields of personal information section "Test_FName" , "Test_LName", "" ,"Test_city","Test_State","12345","1234567675","1234","Test_UserName1","Test_Password","Test_Password"] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:11:32</span>&nbsp;
+													<span class="tt">02.28.2021 03:50:52</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Fill all the required fields of personal information section "Test_FName" , "Test_LName", "" ,"Test_city","Test_State","12345","1234567675","1234","Test_UserName1","Test_Password","Test_Password"]</span>
 													
@@ -1121,12 +1627,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:11:32</span>&nbsp;
+												<span class="tt">02.28.2021 03:50:52</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And click on Register button] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:11:33</span>&nbsp;
+													<span class="tt">02.28.2021 03:50:53</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And click on Register button]</span>
 													
@@ -1136,12 +1642,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:11:33</span>&nbsp;
+												<span class="tt">02.28.2021 03:50:53</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then System displays an "Address is required."beside "Address"] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:11:33</span>&nbsp;
+													<span class="tt">02.28.2021 03:50:53</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then System displays an "Address is required."beside "Address"]</span>
 													
@@ -1151,7 +1657,7 @@
 											<div class="st pass test l2" 
 												tags="@registration"
 												devices="">
-												<span class="tt">02.26.2021 21:11:40</span>&nbsp;
+												<span class="tt">02.28.2021 03:51:00</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[Verify user can't register with invalid data] started</span>
 												<span class="category-list">
@@ -1166,12 +1672,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:11:40</span>&nbsp;
+												<span class="tt">02.28.2021 03:51:00</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:11:40</span>&nbsp;
+													<span class="tt">02.28.2021 03:51:00</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page]</span>
 													
@@ -1181,12 +1687,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:11:40</span>&nbsp;
+												<span class="tt">02.28.2021 03:51:00</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When Click on Register link] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:11:41</span>&nbsp;
+													<span class="tt">02.28.2021 03:51:01</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When Click on Register link]</span>
 													
@@ -1196,12 +1702,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:11:41</span>&nbsp;
+												<span class="tt">02.28.2021 03:51:01</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Redirected to continue registration page] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:11:41</span>&nbsp;
+													<span class="tt">02.28.2021 03:51:01</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Redirected to continue registration page]</span>
 													
@@ -1211,12 +1717,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:11:41</span>&nbsp;
+												<span class="tt">02.28.2021 03:51:01</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Fill all the required fields of personal information section "Test_FName" , "Test_LName", "Test_Address" ,"","Test_State","12345","1234567675","1234","Test_UserName1","Test_Password","Test_Password"] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:11:42</span>&nbsp;
+													<span class="tt">02.28.2021 03:51:02</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Fill all the required fields of personal information section "Test_FName" , "Test_LName", "Test_Address" ,"","Test_State","12345","1234567675","1234","Test_UserName1","Test_Password","Test_Password"]</span>
 													
@@ -1226,12 +1732,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:11:42</span>&nbsp;
+												<span class="tt">02.28.2021 03:51:02</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And click on Register button] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:11:43</span>&nbsp;
+													<span class="tt">02.28.2021 03:51:02</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And click on Register button]</span>
 													
@@ -1241,12 +1747,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:11:43</span>&nbsp;
+												<span class="tt">02.28.2021 03:51:02</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then System displays an "City is required."beside "City"] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:11:43</span>&nbsp;
+													<span class="tt">02.28.2021 03:51:02</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then System displays an "City is required."beside "City"]</span>
 													
@@ -1256,7 +1762,7 @@
 											<div class="st pass test l2" 
 												tags="@registration"
 												devices="">
-												<span class="tt">02.26.2021 21:11:59</span>&nbsp;
+												<span class="tt">02.28.2021 03:51:09</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[Verify user can't register with invalid data] started</span>
 												<span class="category-list">
@@ -1271,12 +1777,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:11:59</span>&nbsp;
+												<span class="tt">02.28.2021 03:51:09</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:11:59</span>&nbsp;
+													<span class="tt">02.28.2021 03:51:09</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page]</span>
 													
@@ -1286,12 +1792,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:11:59</span>&nbsp;
+												<span class="tt">02.28.2021 03:51:09</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When Click on Register link] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:12:28</span>&nbsp;
+													<span class="tt">02.28.2021 03:51:10</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When Click on Register link]</span>
 													
@@ -1301,12 +1807,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:12:28</span>&nbsp;
+												<span class="tt">02.28.2021 03:51:10</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Redirected to continue registration page] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:12:28</span>&nbsp;
+													<span class="tt">02.28.2021 03:51:10</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Redirected to continue registration page]</span>
 													
@@ -1316,12 +1822,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:12:28</span>&nbsp;
+												<span class="tt">02.28.2021 03:51:10</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Fill all the required fields of personal information section "Test_FName" , "Test_LName", "Test_Address" ,"Test_city","","12345","1234567675","1234","Test_UserName1","Test_Password","Test_Password"] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:12:28</span>&nbsp;
+													<span class="tt">02.28.2021 03:51:11</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Fill all the required fields of personal information section "Test_FName" , "Test_LName", "Test_Address" ,"Test_city","","12345","1234567675","1234","Test_UserName1","Test_Password","Test_Password"]</span>
 													
@@ -1331,12 +1837,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:12:28</span>&nbsp;
+												<span class="tt">02.28.2021 03:51:11</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And click on Register button] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:12:29</span>&nbsp;
+													<span class="tt">02.28.2021 03:51:11</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And click on Register button]</span>
 													
@@ -1346,12 +1852,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:12:29</span>&nbsp;
+												<span class="tt">02.28.2021 03:51:11</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then System displays an "City is required."beside "State"] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:12:29</span>&nbsp;
+													<span class="tt">02.28.2021 03:51:11</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then System displays an "City is required."beside "State"]</span>
 													
@@ -1361,7 +1867,7 @@
 											<div class="st pass test l2" 
 												tags="@registration"
 												devices="">
-												<span class="tt">02.26.2021 21:12:37</span>&nbsp;
+												<span class="tt">02.28.2021 03:51:19</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[Verify user can't register with invalid data] started</span>
 												<span class="category-list">
@@ -1376,12 +1882,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:12:37</span>&nbsp;
+												<span class="tt">02.28.2021 03:51:19</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:12:37</span>&nbsp;
+													<span class="tt">02.28.2021 03:51:19</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page]</span>
 													
@@ -1391,12 +1897,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:12:37</span>&nbsp;
+												<span class="tt">02.28.2021 03:51:19</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When Click on Register link] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:12:38</span>&nbsp;
+													<span class="tt">02.28.2021 03:51:20</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When Click on Register link]</span>
 													
@@ -1406,12 +1912,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:12:38</span>&nbsp;
+												<span class="tt">02.28.2021 03:51:20</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Redirected to continue registration page] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:12:38</span>&nbsp;
+													<span class="tt">02.28.2021 03:51:20</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Redirected to continue registration page]</span>
 													
@@ -1421,12 +1927,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:12:38</span>&nbsp;
+												<span class="tt">02.28.2021 03:51:20</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Fill all the required fields of personal information section "Test_FName" , "Test_LName", "Test_Address" ,"Test_city","Test_State","","1234567675","1234","Test_UserName1","Test_Password","Test_Password"] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:12:39</span>&nbsp;
+													<span class="tt">02.28.2021 03:51:21</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Fill all the required fields of personal information section "Test_FName" , "Test_LName", "Test_Address" ,"Test_city","Test_State","","1234567675","1234","Test_UserName1","Test_Password","Test_Password"]</span>
 													
@@ -1436,12 +1942,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:12:39</span>&nbsp;
+												<span class="tt">02.28.2021 03:51:21</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And click on Register button] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:12:40</span>&nbsp;
+													<span class="tt">02.28.2021 03:51:21</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And click on Register button]</span>
 													
@@ -1451,12 +1957,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:12:40</span>&nbsp;
+												<span class="tt">02.28.2021 03:51:21</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then System displays an "Zip Code is required."beside "Zip Code"] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:12:40</span>&nbsp;
+													<span class="tt">02.28.2021 03:51:21</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then System displays an "Zip Code is required."beside "Zip Code"]</span>
 													
@@ -1466,7 +1972,7 @@
 											<div class="st pass test l2" 
 												tags="@registration"
 												devices="">
-												<span class="tt">02.26.2021 21:12:46</span>&nbsp;
+												<span class="tt">02.28.2021 03:51:29</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[Verify user can't register with invalid data] started</span>
 												<span class="category-list">
@@ -1481,12 +1987,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:12:46</span>&nbsp;
+												<span class="tt">02.28.2021 03:51:29</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:12:46</span>&nbsp;
+													<span class="tt">02.28.2021 03:51:29</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page]</span>
 													
@@ -1496,12 +2002,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:12:46</span>&nbsp;
+												<span class="tt">02.28.2021 03:51:29</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When Click on Register link] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:12:48</span>&nbsp;
+													<span class="tt">02.28.2021 03:51:30</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When Click on Register link]</span>
 													
@@ -1511,12 +2017,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:12:48</span>&nbsp;
+												<span class="tt">02.28.2021 03:51:30</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Redirected to continue registration page] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:12:48</span>&nbsp;
+													<span class="tt">02.28.2021 03:51:30</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Redirected to continue registration page]</span>
 													
@@ -1526,12 +2032,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:12:48</span>&nbsp;
+												<span class="tt">02.28.2021 03:51:30</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Fill all the required fields of personal information section "Test_FName" , "Test_LName", "Test_Address" ,"Test_city","Test_State","12345","","","Test_UserName1","Test_Password","Test_Password"] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:12:48</span>&nbsp;
+													<span class="tt">02.28.2021 03:51:30</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Fill all the required fields of personal information section "Test_FName" , "Test_LName", "Test_Address" ,"Test_city","Test_State","12345","","","Test_UserName1","Test_Password","Test_Password"]</span>
 													
@@ -1541,12 +2047,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:12:48</span>&nbsp;
+												<span class="tt">02.28.2021 03:51:30</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And click on Register button] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:12:49</span>&nbsp;
+													<span class="tt">02.28.2021 03:51:30</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And click on Register button]</span>
 													
@@ -1556,12 +2062,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:12:49</span>&nbsp;
+												<span class="tt">02.28.2021 03:51:30</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then System displays an "Social Security Number is required."beside "SSN"] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:12:49</span>&nbsp;
+													<span class="tt">02.28.2021 03:51:30</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then System displays an "Social Security Number is required."beside "SSN"]</span>
 													
@@ -1571,7 +2077,7 @@
 											<div class="st pass test l2" 
 												tags="@registration"
 												devices="">
-												<span class="tt">02.26.2021 21:12:56</span>&nbsp;
+												<span class="tt">02.28.2021 03:51:44</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[Verify user can't register with invalid data] started</span>
 												<span class="category-list">
@@ -1586,12 +2092,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:12:56</span>&nbsp;
+												<span class="tt">02.28.2021 03:51:44</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:12:56</span>&nbsp;
+													<span class="tt">02.28.2021 03:51:44</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page]</span>
 													
@@ -1601,12 +2107,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:12:56</span>&nbsp;
+												<span class="tt">02.28.2021 03:51:44</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When Click on Register link] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:12:57</span>&nbsp;
+													<span class="tt">02.28.2021 03:53:25</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When Click on Register link]</span>
 													
@@ -1616,12 +2122,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:12:57</span>&nbsp;
+												<span class="tt">02.28.2021 03:53:25</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Redirected to continue registration page] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:12:57</span>&nbsp;
+													<span class="tt">02.28.2021 03:53:25</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Redirected to continue registration page]</span>
 													
@@ -1631,12 +2137,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:12:57</span>&nbsp;
+												<span class="tt">02.28.2021 03:53:25</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Fill all the required fields of personal information section "Test_FName" , "Test_LName", "Test_Address" ,"Test_city","Test_State","12345","1234567675","1234","","Test_Password","Test_Password"] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:12:58</span>&nbsp;
+													<span class="tt">02.28.2021 03:53:25</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Fill all the required fields of personal information section "Test_FName" , "Test_LName", "Test_Address" ,"Test_city","Test_State","12345","1234567675","1234","","Test_Password","Test_Password"]</span>
 													
@@ -1646,12 +2152,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:12:58</span>&nbsp;
+												<span class="tt">02.28.2021 03:53:25</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And click on Register button] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:12:58</span>&nbsp;
+													<span class="tt">02.28.2021 03:53:25</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And click on Register button]</span>
 													
@@ -1661,12 +2167,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:12:58</span>&nbsp;
+												<span class="tt">02.28.2021 03:53:25</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then System displays an "Username is required."beside "Username"] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:12:58</span>&nbsp;
+													<span class="tt">02.28.2021 03:53:25</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then System displays an "Username is required."beside "Username"]</span>
 													
@@ -1676,7 +2182,7 @@
 											<div class="st pass test l2" 
 												tags="@registration"
 												devices="">
-												<span class="tt">02.26.2021 21:13:04</span>&nbsp;
+												<span class="tt">02.28.2021 03:53:34</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[Verify user can't register with invalid data] started</span>
 												<span class="category-list">
@@ -1691,12 +2197,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:13:04</span>&nbsp;
+												<span class="tt">02.28.2021 03:53:34</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:13:04</span>&nbsp;
+													<span class="tt">02.28.2021 03:53:34</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page]</span>
 													
@@ -1706,12 +2212,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:13:04</span>&nbsp;
+												<span class="tt">02.28.2021 03:53:34</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When Click on Register link] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:13:05</span>&nbsp;
+													<span class="tt">02.28.2021 03:53:35</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When Click on Register link]</span>
 													
@@ -1721,12 +2227,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:13:05</span>&nbsp;
+												<span class="tt">02.28.2021 03:53:35</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Redirected to continue registration page] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:13:05</span>&nbsp;
+													<span class="tt">02.28.2021 03:53:35</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Redirected to continue registration page]</span>
 													
@@ -1736,12 +2242,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:13:05</span>&nbsp;
+												<span class="tt">02.28.2021 03:53:35</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Fill all the required fields of personal information section "Test_FName" , "Test_LName", "Test_Address" ,"Test_city","Test_State","12345","1234567675","1234","Test_UserName1","","Test_Password"] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:13:06</span>&nbsp;
+													<span class="tt">02.28.2021 03:53:35</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Fill all the required fields of personal information section "Test_FName" , "Test_LName", "Test_Address" ,"Test_city","Test_State","12345","1234567675","1234","Test_UserName1","","Test_Password"]</span>
 													
@@ -1751,12 +2257,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:13:06</span>&nbsp;
+												<span class="tt">02.28.2021 03:53:35</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And click on Register button] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:13:06</span>&nbsp;
+													<span class="tt">02.28.2021 03:53:35</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And click on Register button]</span>
 													
@@ -1766,12 +2272,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:13:06</span>&nbsp;
+												<span class="tt">02.28.2021 03:53:35</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then System displays an "Password is required."beside "Password"] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:13:06</span>&nbsp;
+													<span class="tt">02.28.2021 03:53:35</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then System displays an "Password is required."beside "Password"]</span>
 													
@@ -1781,7 +2287,7 @@
 											<div class="st pass test l2" 
 												tags="@registration"
 												devices="">
-												<span class="tt">02.26.2021 21:13:14</span>&nbsp;
+												<span class="tt">02.28.2021 03:53:45</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[Verify user can't register with invalid data] started</span>
 												<span class="category-list">
@@ -1796,12 +2302,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:13:14</span>&nbsp;
+												<span class="tt">02.28.2021 03:53:45</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:13:14</span>&nbsp;
+													<span class="tt">02.28.2021 03:53:45</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page]</span>
 													
@@ -1811,12 +2317,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:13:14</span>&nbsp;
+												<span class="tt">02.28.2021 03:53:45</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When Click on Register link] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:13:15</span>&nbsp;
+													<span class="tt">02.28.2021 03:53:46</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When Click on Register link]</span>
 													
@@ -1826,12 +2332,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:13:15</span>&nbsp;
+												<span class="tt">02.28.2021 03:53:46</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Redirected to continue registration page] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:13:15</span>&nbsp;
+													<span class="tt">02.28.2021 03:53:46</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Redirected to continue registration page]</span>
 													
@@ -1841,12 +2347,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:13:15</span>&nbsp;
+												<span class="tt">02.28.2021 03:53:46</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Fill all the required fields of personal information section "Test_FName" , "Test_LName", "Test_Address" ,"Test_city","Test_State","12345","1234567675","1234","Test_UserName1","Test_Password",""] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:13:16</span>&nbsp;
+													<span class="tt">02.28.2021 03:53:47</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Fill all the required fields of personal information section "Test_FName" , "Test_LName", "Test_Address" ,"Test_city","Test_State","12345","1234567675","1234","Test_UserName1","Test_Password",""]</span>
 													
@@ -1856,12 +2362,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:13:16</span>&nbsp;
+												<span class="tt">02.28.2021 03:53:47</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And click on Register button] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:13:17</span>&nbsp;
+													<span class="tt">02.28.2021 03:53:47</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And click on Register button]</span>
 													
@@ -1871,12 +2377,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:13:17</span>&nbsp;
+												<span class="tt">02.28.2021 03:53:47</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then System displays an "Password confirmation is required."beside "Confirm"] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:13:17</span>&nbsp;
+													<span class="tt">02.28.2021 03:53:47</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then System displays an "Password confirmation is required."beside "Confirm"]</span>
 													
@@ -1886,7 +2392,7 @@
 											<div class="st pass test l2" 
 												tags="@registration"
 												devices="">
-												<span class="tt">02.26.2021 21:13:23</span>&nbsp;
+												<span class="tt">02.28.2021 03:53:53</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[Verify user can't register with invalid data] started</span>
 												<span class="category-list">
@@ -1901,12 +2407,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:13:23</span>&nbsp;
+												<span class="tt">02.28.2021 03:53:53</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:13:23</span>&nbsp;
+													<span class="tt">02.28.2021 03:53:53</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given A user in the home page]</span>
 													
@@ -1916,12 +2422,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:13:23</span>&nbsp;
+												<span class="tt">02.28.2021 03:53:53</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When Click on Register link] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:13:23</span>&nbsp;
+													<span class="tt">02.28.2021 03:53:54</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When Click on Register link]</span>
 													
@@ -1931,12 +2437,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:13:23</span>&nbsp;
+												<span class="tt">02.28.2021 03:53:54</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Redirected to continue registration page] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:13:23</span>&nbsp;
+													<span class="tt">02.28.2021 03:53:54</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Redirected to continue registration page]</span>
 													
@@ -1946,12 +2452,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:13:23</span>&nbsp;
+												<span class="tt">02.28.2021 03:53:54</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Fill all the required fields of personal information section "Test_FName" , "Test_LName", "Test_Address" ,"Test_city","Test_State","12345","1234567675","1234","Test_UserName1","Test_Password","Different_Password"] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:13:24</span>&nbsp;
+													<span class="tt">02.28.2021 03:53:55</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Fill all the required fields of personal information section "Test_FName" , "Test_LName", "Test_Address" ,"Test_city","Test_State","12345","1234567675","1234","Test_UserName1","Test_Password","Different_Password"]</span>
 													
@@ -1961,12 +2467,12 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:13:24</span>&nbsp;
+												<span class="tt">02.28.2021 03:53:55</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And click on Register button] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:13:25</span>&nbsp;
+													<span class="tt">02.28.2021 03:53:56</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And click on Register button]</span>
 													
@@ -1976,17 +2482,34 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">02.26.2021 21:13:25</span>&nbsp;
+												<span class="tt">02.28.2021 03:53:56</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then System displays an "Password confirmation is required."beside "Confirm"] started</span>
 												
 												<div class="st pass">
-													<span class="tt">02.26.2021 21:13:25</span>&nbsp;
+													<span class="tt">02.28.2021 03:53:56</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then System displays an "Password confirmation is required."beside "Confirm"]</span>
 													
 													<span class="td"></span>
 												</div>
+											</div>
+											</div>
+											<div class="tsc" status="pass">
+											<div class="st pass test l0" 
+												tags="@update_info"
+												devices="">
+												<span class="tt">02.28.2021 03:53:57</span>&nbsp;
+												<span class="ts">pass</span>&nbsp;&nbsp;
+												<span class="tn">[Update User Contact Info] started</span>
+												<span class="category-list">
+													<span class="category badge"><i class="fa fa-tag"></i> @update_info</span>
+												</span>
+												<span class="author-list">
+												</span>
+												<span class="device-list">
+												</span>
+												
 											</div>
 											</div>
 									</div>

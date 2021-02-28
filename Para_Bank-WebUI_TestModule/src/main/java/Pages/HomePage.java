@@ -14,6 +14,8 @@ public class HomePage extends BasePage {
 
 	@FindBy(linkText="Open New Account")
     WebElement openNewAccount;
+	@FindBy(linkText="Update Contact Info")
+	private WebElement updateContactInfo;
 
 
 
@@ -25,6 +27,9 @@ public class HomePage extends BasePage {
     }
     public void clickOnOpenNewAccount(){
         clickButton(openNewAccount);
+    }
+    public void clickOnUpdateContactInfo(){
+        clickButton(updateContactInfo);
     }
 
 

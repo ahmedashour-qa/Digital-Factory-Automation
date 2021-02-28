@@ -14,12 +14,7 @@
       </set>
     </option>
   </component>
-  <component name="ProjectPlainTextFileTypeManager">
-    <file url="file://$PROJECT_DIR$/Para_Bank-WebUI_TestModule/src/test/resources/featureFiles/Cart.feature" />
-    <file url="file://$PROJECT_DIR$/Para_Bank-WebUI_TestModule/src/test/resources/featureFiles/CartCheckout.feature" />
-    <file url="file://$PROJECT_DIR$/Para_Bank-WebUI_TestModule/src/test/resources/featureFiles/HomePage.feature" />
-  </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

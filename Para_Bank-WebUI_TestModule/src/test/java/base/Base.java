@@ -17,6 +17,9 @@ public class Base {
 
     public void startBrowser() {
         //System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/Drivers/chromedriver.exe");
+        /**
+         * Used WebDriverManager instead of static webdriver
+         **/
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
