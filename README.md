@@ -7,7 +7,7 @@
 * Object Oriented Programming. 
 * Maven 
 * Extent Report 
-* Junit 
+* TestNg & Junit 
 * Design pattern (Page object model).
 
 #### Note: You can find tests dashboard Under 

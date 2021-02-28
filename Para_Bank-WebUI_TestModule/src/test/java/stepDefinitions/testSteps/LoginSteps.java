@@ -6,7 +6,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.junit.Assert;
+import org.testng.Assert;
 
 public class LoginSteps extends Base {
     private Base base;
@@ -43,5 +43,11 @@ public class LoginSteps extends Base {
     @Then("System displays an error message says {string}")
     public void systemDisplaysAnErrorMessageSays(String ErrorMessage) {
         Assert.assertEquals(ErrorMessage, landPage.LoginError());
+    }
+
+    @And("Click on Logout")
+    public void clickOnLogout() {
+        landPage= new LandPage(base.driver);
+        landPage.clickonLogout();
     }
 }

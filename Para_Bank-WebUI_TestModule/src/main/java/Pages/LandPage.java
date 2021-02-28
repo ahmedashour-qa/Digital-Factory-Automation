@@ -23,6 +23,10 @@ public class LandPage extends BasePage {
     @FindBy(css = "div:nth-child(1) div:nth-child(2) form:nth-child(1) div.login:nth-child(5) > input.button")
     WebElement loginBtn;
 
+	@FindBy(linkText="Log Out")
+	private WebElement logoutLnk;
+
+
 
     //Errors
     @FindBy(css = "body:nth-child(2) div:nth-child(1) div:nth-child(3) div:nth-child(2) > p.error")
@@ -44,8 +48,10 @@ public class LandPage extends BasePage {
     }
 
     public String LoginError() {
-        String LoginError = getTextElement(loginError);
-        return LoginError;
+        return getTextElement(loginError);
+    }
+    public void clickonLogout(){
+        clickButton(logoutLnk);
     }
 
 
