@@ -10,3 +10,6 @@
 * Junit 
 * Design pattern (Page object model).
 
+#### Note: You can find tests dashboard Under 
+/FramewworkStructured/Para_Bank-WebUI-TestModule/testOutput/extent/HtmlReport/ExtentHtml.html
+
